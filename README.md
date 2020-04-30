@@ -7,5 +7,7 @@ Virtual game desc
 
 # webrtc.github.io
 
-- https://webrtc.github.io/samples/ раздел RTCPeerConnection описывает как соединятся браузерам (peer-ам)
-- https://webrtc.github.io/samples/src/content/datachannel/basic/ пример чата peer-to-peer
+- раздел RTCPeerConnection описывает как соединятся браузерам (peer-ам)
+- раздел RTCDataChannel
+  - https://webrtc.github.io/samples/src/content/datachannel/basic/ пример рассылки текста peer-to-peer
+  - https://webrtc.github.io/samples/src/content/datachannel/messaging/ пример чата peer-to-peer
