@@ -1,0 +1,33 @@
+{
+  "name": "gamedesk",
+  "version": "1.0.0",
+  "description": "Virtual game desc",
+  "main": "src/js/index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "watch": "webpack --mode development --watch",
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bzick/gamedesk.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bzick/gamedesk/issues"
+  },
+  "homepage": "https://github.com/bzick/gamedesk#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "webrtc-adapter": "^7.5.1"
+  }
+}
